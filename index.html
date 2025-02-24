@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>toDo app</title>
+        <meta charset="utf-8">
+        <meta name="description" content="a simple app to add, view, update and delete tasks">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>To-Do List</h1>
+            <div class="input-section">
+              <input type="text" id="taskInput" placeholder="Enter a task" />
+              <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+            <button onClick="refreshTasks()">Refresh</button>
+        </div>
+    </body>
+</html>
